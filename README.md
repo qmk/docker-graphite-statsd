@@ -1,3 +1,7 @@
+This repo is QMK's fork of the official graphite docker image. We use this to maintain the config files without the need to mount and change files in a volume.
+
+Everything below this line comes from [graphite-project/docker-graphite-statsd](https://github.com/graphite-project/docker-graphite-statsd).
+
 This repo was based on [@hopsoft's](https://github.com/hopsoft/) [docker-graphite-statsd](https://github.com/hopsoft/docker-graphite-statsd) docker image and was used as base for "official" Graphite docker image with his permission. Also, it contains parts of famous [@obfuscurity's](https://github.com/obfuscurity/) [synthesize](https://github.com/obfuscurity/synthesize) Graphite installer. Thanks a lot, Nathan and Jason!
 
 Any suggestions / patches etc. are welcome!
