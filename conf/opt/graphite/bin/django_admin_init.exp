@@ -8,15 +8,15 @@ expect "Username (leave blank to use 'root'):" {
 }
 
 expect "Email address:" {
-  send "root.graphite@mailinator.com\r"
+  send "hello@qmk.fm\r"
 }
 
 expect "Password:" {
-  send "root\r"
+  send "qmkrocks\r"
 }
 
 expect "Password *:" {
-  send "root\r"
+  send "qmkrocks\r"
 }
 
 expect "Superuser created successfully"
